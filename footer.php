@@ -15,9 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'foxhound' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'foxhound' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'foxhound' ), 'foxhound', '<a href="http://themes.redradar.net" rel="designer">Kelly Dwan & Mel Choyce</a>' ); ?>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'foxhound' ) ); ?>"><?php printf( esc_html__( 'Powered by %s', 'foxhound' ), 'WordPress' ); ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
